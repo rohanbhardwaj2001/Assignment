@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    
+    <style>
+
+        
+        label{
+            font-weight: bold;
+        }
+        button{
+            background-color: cornflowerblue;
+        }
+        form{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+            background-color: antiquewhite;
+            width: 30px;
+            border-radius: 25px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 align="center">Registration Form</h1>
+        
+<center>
+        <form align="center" style="border: 2px seagreen solid; width: 55%; ">
+            <label for="name">Student Name</label>
+            <br>
+            <input type="text" id="name" >
+        <br>
+            <br>
+            <label for="fname">Father's Name</label>  <br>
+            <input type="text" id="fname">
+            <br>
+            <br>
+            <label for="email">Email</label>  <br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="dob">Date of Birth</label>  <br>
+            <input type="date" id="dob">
+            <br>
+            <br>
+            <label for="Gender">Gender</label>  <br>
+            <input type="radio" id="male" name="Gender">Male
+            <input type="radio" id="female" name="Gender">Female
+            <input type="radio" id="other" name="Gender">Other
+            <br>
+            <br>
+            <label for="add">Address</label><br>
+                <textarea name="add" rows="5" cols="18">.</textarea> 
+                    <br>
+            <label for="lang">Languages Known</label>  <br>
+            <input type="checkbox" id="lang" name="English">English
+            <input type="checkbox" id="lang" name="french">French
+            <input type="checkbox" id="lang" name="hindi">Hindi
+            <br>
+            <br>
+            
+            <label for="lang">Select Course</label>  <br>
+            <select>
+            <option id="lang" name="MCA">MCA
+                <option id="lang" name="MBA">MBA
+                    <option id="lang" name="BBA">BBA
+                        <option id="lang" name="BCA">BCA
+            </select>
+            <br>
+            <br>
+            <button  id="submitBtn">Submit</button>
+            <button>Reset</button>
+            <br>
+        </form>
+</center>
+<script>
+  
+    var submitButton = document.getElementById("submitBtn");
+
+    
+    submitButton.addEventListener("click", function() {
+       
+        alert("Form Submitted Successfully");
+    });
+</script>
+    </body>
+    </html>
