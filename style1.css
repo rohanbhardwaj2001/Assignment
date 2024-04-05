@@ -1,0 +1,43 @@
+.p{
+    color:black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 500;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    font-size: medium;
+    color:  rgb(145, 56, 56);
+}
+body{
+    background-color:azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+text-align: center;
+height: 50px;
+background-color: seagreen;
+}
+.text{
+    color: rgb(145, 56, 56);
+    font-weight: bolder;
+}
+h2{
+    color: seagreen;
+}
+
+table, th, td {
+border: 1px solid rgb(244, 242, 242);
+color: rgb(50, 42, 42);
+width: 750px;
+
+text-align: center;
+
+}
+
+  .btn-greensea {
+    border: 2px solid;
+    background-color: seagreen; 
+     
+}
